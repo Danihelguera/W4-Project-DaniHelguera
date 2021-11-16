@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a0ea76f4661942ca906bb63bd00edf8c {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_a0ea76f4661942ca906bb63bd00edf8c" ></div>
+        
+</body>
+<script>    
+    
+            var map_a0ea76f4661942ca906bb63bd00edf8c = L.map(
+                "map_a0ea76f4661942ca906bb63bd00edf8c",
+                {
+                    center: [40.47219316, -3.75460262],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_37339ca941e04710a957332e66c632da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var marker_634d3c1287694afdbf491091811a1e96 = L.marker(
+                [40.43094, -3.6952896],
+                {}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var icon_24aeccd5658141eaa9e3203919287f18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gamepad", "iconColor": "black", "markerColor": "green", "opacity": 0.3, "prefix": "fa"}
+            );
+            marker_634d3c1287694afdbf491091811a1e96.setIcon(icon_24aeccd5658141eaa9e3203919287f18);
+        
+    
+            marker_634d3c1287694afdbf491091811a1e96.bindTooltip(
+                `<div>
+                     eRepublik
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b293f630ec2467fbf6c8e6f01590f80 = L.marker(
+                [40.42792, -3.7141],
+                {}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var icon_619e67371ea744ad9c9f24b47157d1f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gamepad", "iconColor": "black", "markerColor": "green", "opacity": 0.3, "prefix": "fa"}
+            );
+            marker_5b293f630ec2467fbf6c8e6f01590f80.setIcon(icon_619e67371ea744ad9c9f24b47157d1f1);
+        
+    
+            marker_5b293f630ec2467fbf6c8e6f01590f80.bindTooltip(
+                `<div>
+                     VivoCom
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cec2609030a84d2fb0dde1aab489eddf = L.marker(
+                [40.4380872, -3.6760635],
+                {}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var icon_230054f856a6444eb31a04944ddc862d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gamepad", "iconColor": "black", "markerColor": "green", "opacity": 0.3, "prefix": "fa"}
+            );
+            marker_cec2609030a84d2fb0dde1aab489eddf.setIcon(icon_230054f856a6444eb31a04944ddc862d);
+        
+    
+            marker_cec2609030a84d2fb0dde1aab489eddf.bindTooltip(
+                `<div>
+                     Entropy Computational Services
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3bfddcc01f545cebfab5358c778a9d7 = L.marker(
+                [40.4273082, -3.6895115],
+                {}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var icon_3188db87c57d4d249bed8477c76964c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gamepad", "iconColor": "black", "markerColor": "green", "opacity": 0.3, "prefix": "fa"}
+            );
+            marker_c3bfddcc01f545cebfab5358c778a9d7.setIcon(icon_3188db87c57d4d249bed8477c76964c3);
+        
+    
+            marker_c3bfddcc01f545cebfab5358c778a9d7.bindTooltip(
+                `<div>
+                     Virgin Play
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b1367ae7f4dc4408b786841d596ad242 = L.marker(
+                [40.6367104, -3.9980485],
+                {}
+            ).addTo(map_a0ea76f4661942ca906bb63bd00edf8c);
+        
+    
+            var icon_2a954e048f1345e2b62ed79135760c87 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "gamepad", "iconColor": "black", "markerColor": "green", "opacity": 0.3, "prefix": "fa"}
+            );
+            marker_b1367ae7f4dc4408b786841d596ad242.setIcon(icon_2a954e048f1345e2b62ed79135760c87);
+        
+    
+            marker_b1367ae7f4dc4408b786841d596ad242.bindTooltip(
+                `<div>
+                     Undead Code Studios
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
